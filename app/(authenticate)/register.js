@@ -37,7 +37,7 @@ const register = () => {
       password: password,
     };
     axios
-    .post("http://192.168.1.64:4000/register", user)
+    .post("https://rmbackend-production.up.railway.app/register", user)
     .then((response) => {
       console.log(response);
       Alert.alert(
